@@ -1,0 +1,43 @@
+.formContainer {  
+  width: 50%;
+  text-align: center;
+}
+
+.input {
+  border: 2px solid #7e7e7e;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.inputError{
+  border: 2px solid #ff0000;
+}
+
+.input:focus {
+  outline-color: #0bb69f;
+}
+
+.errorMessage {
+  font-size: 0.8rem;
+  color: #ff0000;
+}
+
+.buttonContainer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border: 2px solid #7e7e7e;
+  background-color: #efefef;
+}
+
+.button:hover {
+  border: 2px solid #0bb69f;
+
+}
